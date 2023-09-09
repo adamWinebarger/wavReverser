@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/wav_reverser.dir/main.c.o -o wav_reverser 

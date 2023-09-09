@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/adam/projects/wav_reverser/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/wav_reverser.dir/main.c.o -c /home/adam/projects/wav_reverser/main.c",
+  "file": "/home/adam/projects/wav_reverser/main.c"
+}
+]
