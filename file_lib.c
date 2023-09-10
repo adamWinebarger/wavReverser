@@ -2,6 +2,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+size_t* getFileSize(const char* filePath) {
+
+    size_t size;
+    FILE* file = fopen(filePath, "r");
+    if (file == NULL)
+        return NULL;
+
+    fseek(file, 0L, SEEK_END);
+
+    size = ftell(file);
+    // printf("%ld\n", size);
+    fclose(file);
+
+    size_t* sizeptr = malloc(sizeof(size));
+    *sizeptr = size;
+
+    return sizeptr;
+}
+
 char* read_file(const char* path, size_t* fileSize) {
     FILE* file = fopen(path, "rb"); // Open the file in binary mode
     if (file == NULL) {

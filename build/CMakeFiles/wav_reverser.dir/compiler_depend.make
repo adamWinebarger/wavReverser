@@ -54,7 +54,9 @@ CMakeFiles/wav_reverser.dir/main.c.o: /home/adam/projects/wav_reverser/main.c \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /home/adam/projects/wav_reverser/wav.h \
+  /home/adam/projects/wav_reverser/file_lib.h
 
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
@@ -97,6 +99,8 @@ CMakeFiles/wav_reverser.dir/main.c.o: /home/adam/projects/wav_reverser/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/home/adam/projects/wav_reverser/file_lib.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -132,6 +136,8 @@ CMakeFiles/wav_reverser.dir/main.c.o: /home/adam/projects/wav_reverser/main.c \
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/home/adam/projects/wav_reverser/wav.h:
 
 /usr/include/alloca.h:
 

@@ -47,6 +47,12 @@
 
 #include <stdlib.h>
 
+//#include "file_lib.c" //having this line means we'll be able to quickly build in KDEvelop. Just remember to take it out before submitting
+
+//Not fully committed to getting fileSize this way. But it'll do for now.
+//Function is kind of dirty though IMO.
+size_t* getFileSize(const char* filePath);
+
 /*
  * The read_file function will attempt to read a file into a new buffer.
  *
