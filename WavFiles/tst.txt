@@ -1,0 +1,999 @@
+  425  sudo nala update
+  426  nala list --upgradeable
+  427  sudo nala upgrade
+  428  sudo flatpak update
+  429  sudo snap refresh
+  430  brew upgrade
+  431  fileCount
+  432  fileCount
+  433  mogrify
+  434  cd ../Assignment\ 2\ Potentials
+  435  fileCount
+  436  mv * ~/Pictures/Photography\ Photos/Fuckaround\ Photos
+  437  git init
+  438  git remote add origin github.com/adamWinebarger/wavReverser
+  439  git add *
+  440  git commit -m "Initial Commit"
+  441  git push -u origin main
+  442  git remote add origin https://github.com/adamWinebarger/wavReverser.git
+  443  ls
+  444  git remote add origin https://github.com/adamWinebarger/wavReverser.git -f
+  445  git remote set-url origin https://github.com/adamWinebarger/wavReverser.git
+  446  git push
+  447  git push -u origin main
+  448  git push --set-upstream origin main
+  449  git push --set-upstream origin main -f
+  450  touch README.md
+  451  git add *
+  452  git commit -m "Initial commit"
+  453  git push --set-upstream origin main -f
+  454  ls -a
+  455  rm -r .git
+  456  sudo rm -r /git
+  457  sudo rm -r /.git
+  458  ls
+  459  ls -a
+  460  sudo rm -r .git
+  461  git init
+  462  git add *
+  463  git commit -m "Initial Commit with stuff"
+  464  git remote add origin https://github.com/adamWinebarger/wavReverser.git
+  465  git push -u origin main
+  466  ls
+  467  ls -a
+  468  sudo rm -r .git
+  469  echo "# wavReverser" >> README.md
+  470  git init
+  471  git add *
+  472  git commit -m "first commit"
+  473  git branch -M main
+  474  git remote add origin https://github.com/adamWinebarger/wavReverser.git
+  475  git push -u origin main
+  476  brave
+  477  brave Documents/College\ Stuff/GVSU/Fall\ 2023/Structure\ of\ Programming\ Languages/Assignment\ 1/wav_reverser.pdf
+  478  cp -r ~/Music/WavFiles .
+  479  git add *
+  480  git commit -m "Added some un-Reveresed wav files to the repo so that way we have something to test with"
+  481  git push
+  482  ls
+  483  ffmpeg -i Missy_Elliott_-_Work_It_\[NaijaGreen.Com\]_.mp3 "Work It Remix.wav"
+  484  ls
+  485  open Work\ It\ Remix.wav
+  486  mv *.wav WavFiles
+  487  ls
+  488  cd WavFiles
+  489  ls
+  490  open Jerk\ It\ Out.wav
+  491  cat ~/Documents/githubKey.txt
+  492  ls
+  493  ls -l
+  494  open .
+  495  cd Music
+  496  ffmpeg -i 01\ Ray\ Ban\ Vision\ \(feat.\ Cyhi\ Da\ Prynce\).m4a "Ray Ban Vision.wav"
+  497  ls
+  498  open Ray\ Ban\ Vision.wav
+  499  ls
+  500  mkdir WavFiles
+  501  ls
+  502  ls ~/Downloads
+  503  mv ~/Downloads/04\ Jerk\ It\ Out.m4a .
+  504  ffmpeg -i 04\ Jerk\ It\ Out.m4a "Jerk It Out.wav"
+  505  ls ~/Downloads
+  506  mv ~/Downloads/14\ Work\ It\ \(feat.\ 50\ Cent\)\ \[Remix\].m4p .
+  507  ls
+  508  ffmpeg -i 14\ Work\ It\ \(feat.\ 50\ Cent\)\ \[Remix\].m4p "Work It Remix.wav"
+  509  avconv -h
+  510  sudo nala install ffmpeg
+  511  sudo nala install avconv
+  512  sudo nala install libav-tools
+  513  ffmpeg -g
+  514  ffmpeg -h
+  515  cat Documents/githubKey.txt
+  516  cc -v
+  517  ccat Makefile
+  518  ls
+  519  ccat compile_commands.json
+  520  ls
+  521  ccat wav_reverser
+  522  ccat Makefile
+  523  ls
+  524  cd CMakeFiles
+  525  ls
+  526  cd ..
+  527  ls
+  528  cd ..
+  529  ls
+  530  cd build
+  531  ls
+  532  ccat compile_commands.json
+  533  cd 
+  534  bc
+  535  python
+  536  ./wav_reverser 2 3
+  537  ./wav_reverser 2 3
+  538  ./wav_reverser ../WavFiles/Jerk\ It\ Out.wav 42
+  539  ./wav_reverser ../WavFiles/Jerk\ It\ Out.wav 42
+  540  ls
+  541  cat Documents/githubKey.txt
+  542  sudo nala upgrade
+  543  sudo flatpak update
+  544  sudo snap refresh
+  545  brew upgrade
+  546  uname -r
+  547  od
+  548  cd WavFiles
+  549  od Work\ It\ Remix.wav
+  550  od Work\ It\ Remix.wav | head
+  551  hd Work\ It\ Remix.wav | head
+  552  hd Jerk\ It\ Out.wav | head
+  553  ls -l
+  554  gcc -o wav_reverser main.c file_lib.c
+  555  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  556  ./wav_reverser WavFiles/Jerk\ It\ Out.wav
+  557  ./wav_reverser banana 47
+  558  gcc -o wav_reverser main.c file_lib.c
+  559  gcc -o wav_reverser main.c file_lib.c
+  560  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  561  gcc -o wav_reverser main.c file_lib.c
+  562  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  563  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  564  gcc -o wav_reverser main.c file_lib.c
+  565  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  566  gcc -o wav_reverser main.c file_lib.c
+  567  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  568  ls
+  569  git add *
+  570  nano README.md
+  571  git commit -m "Built a helper function to determine the size of wav files input as args into file_lib.c. This should make our lives a little easier going forward"
+  572  git push
+  573  gcc -o wav_reverser main.c file_lib.c
+  574  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  575  gcc -o wav_reverser main.c file_lib.c
+  576  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  577  gcc -o wav_reverser main.c file_lib.c
+  578  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  579  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  580  gcc -o wav_reverser main.c file_lib.c
+  581  ./wav_reverser WavFiles/Jerk\ It\ Out.wav 42
+  582  fileCount
+  583  fileCount
+  584  ls
+  585  mv IMG_0199.JPG ~/Pictures/Photography\ Photos/Fuckaround\ Photos
+  586  mv IMG_0200.JPG ~/Pictures/Photography\ Photos/Fuckaround\ Photos
+  587  mv IMG_0201.JPG ~/Pictures/Photography\ Photos/Fuckaround\ Photos
+  588  mv IMG_0202.JPG ~/Pictures/Photography\ Photos/Fuckaround\ Photos
+  589  mv *.JPG ~/Pictures/Photography\ Photos/Assignment\ 1/Assignment\ 1\ Photos
+  590  fileCount
+  591  mkdir 'Assignment 1 Potentials' 'Assignment 1 Finals'
+  592  ls
+  593  cd Assignment\ 1\ Photos
+  594  ls
+  595  cp IMG_0244.JPG ../Assignment\ 1\ Potentials
+  596  cp IMG_0211.JPG ../Assignment\ 1\ Potentials
+  597  cp IMG_0224.JPG ../Assignment\ 1\ Potentials
+  598  cp IMG_0226.JPG ../Assignment\ 1\ Potentials
+  599  cp IMG_0229.JPG ../Assignment\ 1\ Potentials
+  600  cp IMG_0232.JPG ../Assignment\ 1\ Potentials
+  601  cp IMG_0233.JPG ../Assignment\ 1\ Potentials
+  602  cp IMG_0239.JPG ../Assignment\ 1\ Potentials
+  603  cp IMG_0241.JPG ../Assignment\ 1\ Potentials
+  604  cp IMG_0242.JPG ../Assignment\ 1\ Potentials
+  605  cp IMG_0248.JPG ../Assignment\ 1\ Potentials
+  606  cp IMG_0258.JPG ../Assignment\ 1\ Potentials
+  607  cp IMG_0266.JPG ../Assignment\ 1\ Potentials
+  608  cp IMG_0267.JPG ../Assignment\ 1\ Potentials
+  609  cp IMG_0269.JPG ../Assignment\ 1\ Potentials
+  610  cp IMG_0272.JPG ../Assignment\ 1\ Potentials
+  611  cp IMG_0276.JPG ../Assignment\ 1\ Potentials
+  612  cp IMG_0283.JPG ../Assignment\ 1\ Potentials
+  613  cp IMG_0298.JPG ../Assignment\ 1\ Potentials
+  614  cp IMG_0293.JPG ../Assignment\ 1\ Potentials
+  615  fileCount
+  616  cp IMG_0303.JPG ../Assignment\ 1\ Potentials
+  617  cp IMG_0304.JPG ../Assignment\ 1\ Potentials
+  618  cp IMG_0306.JPG ../Assignment\ 1\ Potentials
+  619  cp IMG_0311.JPG ../Assignment\ 1\ Potentials
+  620  cp IMG_0313.JPG ../Assignment\ 1\ Potentials
+  621  mv *.JPG ~/Pictures/Photography\ Photos/Assignment\ 1/Assignment\ 1\ Photos
+  622  sudo nala upgrade
+  623  sudo flatpak update
+  624  sudo snap refresh
+  625  brew upgrade
+  626  exit
+  627  fileCount
+  628  fileCount
+  629  ls ../Assignment\ 1\ Potentials
+  630  cp IMG_0317.JPG ../Assignment\ 1\ Potentials
+  631  cp IMG_0321.JPG ../Assignment\ 1\ Potentials
+  632  cp IMG_0322.JPG ../Assignment\ 1\ Potentials
+  633  cp IMG_0323.JPG ../Assignment\ 1\ Potentials
+  634  cp IMG_0324.JPG ../Assignment\ 1\ Potentials
+  635  cp IMG_0329.JPG ../Assignment\ 1\ Potentials
+  636  cp IMG_0330.JPG ../Assignment\ 1\ Potentials
+  637  cp IMG_0336.JPG ../Assignment\ 1\ Potentials
+  638  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts
+  639  mkdir Project\ 1
+  640  mkdir Projects
+  641  mv Project\ 1 Projects
+  642  ls
+  643  cd Projects
+  644  cd Project\ 1
+  645  ls
+  646  gcc -o test1 main.c
+  647  ./test1
+  648  cp main.c main2.c
+  649  gcc -p test2 main2.c
+  650  gcc -o test2 main2.c
+  651  ./test2
+  652  gcc -o test2 main2.c
+  653  gcc -o test2 main2.c
+  654  gcc -o test2 main2.c
+  655  gcc -o test2 main2.c
+  656  ./test2
+  657  gcc -o test2 main2.c
+  658  ./test2
+  659  ./test2
+  660  gcc -o test2 main2.c
+  661  gcc -o test2 main2.c
+  662  ./test2
+  663  gcc -o test2 main2.c
+  664  ./test2
+  665  gcc -o test2 main2.c
+  666  ./test2
+  667  ./test2
+  668  gcc -o test2 main2.c
+  669  ./test2
+  670  ./test2
+  671  gcc -o test2 main2.c
+  672  ./test2
+  673  ./test2
+  674  ./test2
+  675  ./test2
+  676  cp IMG_0205.JPG ../Assignment\ 1\ Potentials
+  677  cp IMG_0207.JPG ../Assignment\ 1\ Potentials
+  678  cd ../Assignment\ 1\ Potentials
+  679  ;s
+  680  ls
+  681  ls
+  682  cp ../Assignment\ 1\ Photos/IMG_0288.JPG .
+  683  cp IMG_0288.JPG ../Assignment\ 1\ Finals
+  684  rm IMG_0288.JPG
+  685  rm ../Assignment\ 1\ Finals/IMG_0288.JPG
+  686  cp IMG_0233.JPG ../Assignment\ 1\ Finals
+  687  cp IMG_0226.JPG ../Assignment\ 1\ Finals
+  688  mv ../Assignment\ 1\ Photos/IMG_0229.JPG ../Assignment\ 1\ Finals
+  689  cp ../Assignment\ 1\ Finals/IMG_0229.JPG ../Assignment\ 1\ Photos
+  690  cd ../Assignment\ 1\ Finals
+  691  ls
+  692  cp ../Assignment\ 1\ Potentials/IMG_0269.JPG .
+  693  cp ../Assignment\ 1\ Potentials/IMG_0276.JPG .
+  694  cp ../Assignment\ 1\ Potentials/IMG_0303.JPG .
+  695  sudo nala install python3-pip libusb-1.0.0 sqlite3
+  696  sudo nala install python3-pip sqlite3
+  697  sudo nala install libusb
+  698  pip install mvt
+  699  sudo nala install python3-mvt
+  700  export PATH=$PATH:~/.local/bin
+  701  pip install mvt
+  702  cd Git_Gepos
+  703  ls
+  704  cd ..
+  705  mv -r Git_Gepos Git_repos
+  706  mv  Git_Gepos Git_repos
+  707  cd Git_repos
+  708  git clone https://github.com/mvt-project/mvt.git
+  709  cd mvt
+  710  pip3 install
+  711  python -m pip3 install
+  712  python -m pip install
+  713  sudo nala install python3-mvt
+  714  sudo nala install pipx
+  715  pipx install mvt
+  716  mvt-android
+  717  sudo nala install metasploit
+  718  sudo nala install curl wget gnupg2
+  719  cd
+  720  cdir Cyber Tools
+  721  curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
+  722  chmod +x msfinstall
+  723  ./msfinstall
+  724  msfdb init
+  725  msfconsole --version
+  726  ls
+  727  cd ..
+  728  ls
+  729  cd Cyber\ Tools
+  730  ls
+  731  msfconsole
+  732  ls
+  733  cd Cyber\ Tools
+  734  msfconsole
+  735  exit
+  736  cdecl
+  737  sudo nala install cdecl
+  738  cdecl
+  739  subl test1.c
+  740  cdecl test1.c
+  741  cdecl test1.c
+  742  cdecl test1.c
+  743  cp ../Assignment\ 1\ Potentials/IMG_0226.JPG .
+  744  cp ../Assignment\ 1\ Potentials/IMG_0266.JPG .
+  745  cp ../Assignment\ 1\ Potentials/IMG_0283.JPG .
+  746  reset
+  747  sudo nala update
+  748  sudo nala upgrade
+  749  sudo flatpak update
+  750  sudo snap refresh
+  751  brew upgrade
+  752  ./wav_reverser WavFiles/Work\ It\ Remix.wav 44
+  753  kdevelop
+  754  cd ~/Documents
+  755  cd College\ Stuff
+  756  cd GVSU/Fall\ 2023/Structure\ of\ Programming\ Languages
+  757  LS
+  758  ls
+  759  cdir File Reverer Notes
+  760  subl sampleFileReverser.c
+  761  cp ~/projects/wav_reverser/file_b* .
+  762  ls
+  763  cp ~/projects/wav_reverser/file_lib* .
+  764  ls
+  765  gcc -o test1 sampleFileReverser.c
+  766  gcc -o test1 sampleFileReverser.c
+  767  gcc -o test1 sampleFileReverser.c
+  768  gcc -o test1 sampleFileReverser.c
+  769  ./test1
+  770  ./test1 banana
+  771  ./test1
+  772  gcc -o test1 sampleFileReverser.c
+  773  gcc -o test1 sampleFileReverser.c
+  774  ./test1
+  775  ccat file_lib.c
+  776  ls -l
+  777  nano file_lib.c
+  778  cdecl -h
+  779  cdecl test1
+  780  cdecl sampleFileReverser.c
+  781  ccat file_lib.c
+  782  ccat file_lib.h
+  783  gcc -o test1 sampleFileReverser.c
+  784  ccat file_lib.h
+  785  gcc -o test1 sampleFileReverser.c file_lib.h
+  786  ls
+  787  gcc -o test1 sampleFileReverser.c
+  788  gcc -o test1 sampleFileReverser.c file_lib.h
+  789  gcc -o test1 sampleFileReverser.c file_lib.h file_lib.c
+  790  ls
+  791  ./test1 file_lib.
+  792  ./test1 file_lib.c
+  793  gcc -o test1 sampleFileReverser.c
+  794  gcc -o test1 sampleFileReverser.c
+  795  gcc -o test1 sampleFileReverser.c
+  796  gcc -o test1 sampleFileReverser.c
+  797  nano file_lib.h
+  798  gcc -o test1 sampleFileReverser.c
+  799  gcc -o test1 sampleFileReverser.c
+  800  gcc -o test1 sampleFileReverser.c
+  801  ccat file_lib.c
+  802  gcc -o test1 sampleFileReverser.c
+  803  gcc -o test1 sampleFileReverser.c
+  804  ./test1 sampleFileReverser.c bbb.elif
+  805  ./test1 sampleFileReverser.c bbb.c.elif
+  806  ./test1 sampleFileReverser.c bbb.c
+  807  echo "Hello World\n" > ssample.txt
+  808  ./test1 ssample.txt banana.txt
+  809  ls
+  810  cat bbb.c
+  811  rm bbb*
+  812  cat banana.txt
+  813  gcc -o test1 sampleFileReverser.c
+  814  ./test1 ssample.txt banana.txt
+  815  cat banana.txt
+  816  ls -l
+  817  rm *.txt
+  818  echo "eaoigjaoeigjoidjdreoibhjroibhas" > sample.txt
+  819  ./test1 sample.txt a2.txt
+  820  cat a2.txt
+  821  gcc -o test1 sampleFileReverser.c
+  822  ls
+  823  ./sampleFileReverser.c sample.txt a3.txt
+  824  ./test1 sample.txt a3.txt
+  825  cat a3.txt
+  826  rm *.txt
+  827  gcc -o test1 sampleFileReverser.c
+  828  ./test1 sampleFileReverser.c revers.c
+  829  gcc -o test1 sampleFileReverser.c
+  830  ./test1 sampleFileReverser.c delif.c
+  831  ./sp22
+  832  ./sp22 3
+  833  ./sp22 4
+  834  rm sp2*
+  835  ls
+  836  gcc -o sp2 sampleProgram2.c
+  837  sp2 3
+  838  ./sp2 3
+  839  ./sp2 4
+  840  ./sp2 4
+  841  ./sp2 4 &
+  842  gcc -o sp2 sampleProgram2.c
+  843  ./sp2 4 &
+  844  ls
+  845  cd ..
+  846  ls
+  847  cdir sampleProgram4
+  848  nano sampleProgram4.c
+  849  gcc -o sp4 sampleProgram4.c
+  850  nano sampleProgram4.c
+  851  gcc -o sp4 sampleProgram4.c
+  852  ./sp4
+  853  ./sp4 banana orange
+  854  ./sp4 . ls
+  855  ./sp4 ls ls
+  856  ./sp4 .. ls 
+  857  pwd
+  858  ./sp4 /home/adam/Documents ls\n
+  859  subl sampleProgram4.c
+  860  ./sp4 ls .
+  861  ./sp4 ls ..
+  862  ./sp4 ls 
+  863  ./sp4 ls ~
+  864  ccat sampleProgram1.c
+  865  bash
+  866  fileCount
+  867  ls
+  868  cd Assignment\ 1/Assignment\ 1\ Photos
+  869  fileCount
+  870  nano .zshrc
+  871  print -n "Banana"
+  872  cd ..
+  873  ls
+  874  gcc -o simpleShell main.c
+  875  ./simpleShell
+  876  ./simpleShell
+  877  cd ..
+  878  gcc -o simpleShell main.c
+  879  ./simpleShell
+  880  gcc -o simpleShell main.c
+  881  gcc -o simpleShell main.c
+  882  gcc -o simpleShell main.c
+  883  ./simpleShell
+  884  gcc -o simpleShell main.c
+  885  ./simpleShell
+  886  ./simpleShell
+  887  ./simpleShell
+  888  gcc -o simpleShell main.c
+  889  cd /usr/bin
+  890  ls
+  891  ls *sh
+  892  ccat zsh
+  893  cd ..
+  894  ls
+  895  bigFind zsh
+  896  cd /etc
+  897  ls
+  898  cd zsh
+  899  ls
+  900  hello
+  901  ./simpleShell
+  902  gcc -o simpleShell main.c
+  903  gcc -o simpleShell main.c
+  904  ./simpleShell
+  905  gcc -o simpleShell main.c
+  906  gcc -o simpleShell main.c
+  907  ./simpleShell
+  908  gcc -o simpleShell main.c
+  909  ./simpleShell
+  910  gcc -o simpleShell main.c
+  911  ./simpleShell
+  912  gcc -o simpleShell main.c
+  913  ./simpleShell
+  914  gcc -o simpleShell main.c
+  915  ./simpleShell
+  916  gcc -o simpleShell main.c
+  917  gcc -o simpleShell main.c
+  918  ./simpleShell
+  919  gcc -o simpleShell main.c
+  920  ./simpleShell
+  921  gcc -o simpleShell main.c
+  922  ./simpleShell
+  923  gcc -o simpleShell main.c
+  924  ./simpleShell
+  925  gcc -o simpleShell main.c
+  926  ./simpleShell
+  927  ./simpleShell
+  928  ./simpleShell
+  929  gcc -o simpleShell main.c
+  930  ./simpleShell
+  931  ./simpleShell
+  932  gcc -o simpleShell main.c
+  933  ./simpleShell
+  934  ./simpleShell
+  935  gcc -o simpleShell main.c
+  936  ./simpleShell
+  937  gcc -o simpleShell main.c
+  938  ./simpleShell
+  939  ./simpleShell
+  940  gcc -o simpleShell main.c
+  941  ls -l
+  942  ./simpleShell
+  943  ./simpleShell
+  944  gcc -o simpleShell main.c
+  945  ./simpleShell
+  946  gcc -o simpleShell main.c
+  947  ./simpleShell
+  948  gcc -o simpleShell main.c
+  949  ./simpleShell
+  950  gcc -o simpleShell main.c
+  951  ./simpleShell
+  952  ./simpleShell
+  953  ./simpleShell
+  954  gcc -o simpleShell main.c
+  955  ./simpleShell
+  956  gcc -o simpleShell main.c
+  957  ./simpleShell
+  958  gcc -o simpleShell main.c
+  959  ./simpleShell
+  960  gcc -o simpleShell main.c
+  961  ./simpleShell
+  962  gcc -o simpleShell main.c
+  963  ./simpleShell
+  964  gcc -o simpleShell main.c
+  965  ./simpleShell
+  966  gcc -o simpleShell main.c
+  967  ./simpleShell
+  968  gcc -o simpleShell main.c
+  969  ./simpleShell
+  970  gcc -o simpleShell main.c
+  971  ./simpleShell
+  972  ./sp4 ls -l .
+  973  ./sp4 ls -l
+  974  ./sp4 ls
+  975  gcc -o sp42 sampleProgram4.c
+  976  ./sp42 ls
+  977  ./sp42 ls -a
+  978  ./sp42 ls -al
+  979  ./sp42 ls -al; echo "Hello World"
+  980  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts
+  981  ls
+  982  brave Abraham\ Silberschatz-Operating\ System\ Concepts\ \(9th,2012_12\).pdf
+  983  print -n "Banana"
+  984  print "Banana"
+  985  bash ls
+  986  ls
+  987  bash test.sh
+  988  quit
+  989  exit
+  990  gcc -o simpleShell main.c
+  991  ./simpleShell
+  992  gcc -o simpleShell main.c
+  993  ./simpleShell
+  994  gcc -o simpleShell main.c
+  995  ./simpleShell
+  996  gcc -o simpleShell main.c
+  997  ./simpleShell
+  998  gcc -o simpleShell main.c
+  999  gcc -o simpleShell main.c
+ 1000  ./simpleShell
+ 1001  ./simpleShell
+ 1002  gcc -o simpleShell main.c
+ 1003  ./simpleShell
+ 1004  gcc -o simpleShell main.c
+ 1005  ./simpleShell
+ 1006  gcc -o simpleShell main.c
+ 1007  ./simpleShell
+ 1008  gcc -o simpleShell main.c
+ 1009  ./simpleShell
+ 1010  gcc -o simpleShell main.c
+ 1011  gcc -o simpleShell main.c
+ 1012  ./simpleShell
+ 1013  gcc -o simpleShell main.c
+ 1014  ./simpleShell
+ 1015  gcc -o simpleShell main.c
+ 1016  ./simpleShell
+ 1017  gcc -o simpleShell main.c
+ 1018  ./simpleShell
+ 1019  gcc -o simpleShell main.c
+ 1020  ./simpleShell
+ 1021  gcc -o simpleShell main.c
+ 1022  ./simpleShell
+ 1023  gcc -o simpleShell main.c
+ 1024  ./simpleShell
+ 1025  gcc -o simpleShell main.c
+ 1026  ./simpleShell
+ 1027  gcc -o simpleShell main.c
+ 1028  ./simpleShell
+ 1029  gcc -o simpleShell main.c
+ 1030  ./simpleShell
+ 1031  gcc -o simpleShell main.c
+ 1032  ./simpleShell
+ 1033  ./simpleShell
+ 1034  gcc -o simpleShell main.c
+ 1035  ./simpleShell
+ 1036  gcc -o simpleShell main.c
+ 1037  ./simpleShell
+ 1038  gcc -o simpleShell main.c
+ 1039  ./simpleShell
+ 1040  gcc -o simpleShell main.c
+ 1041  ./simpleShell
+ 1042  gcc -o simpleShell main.c
+ 1043  ./simpleShell
+ 1044  gcc -o simpleShell main.c
+ 1045  ./simpleShell
+ 1046  gcc -o simpleShell main.c
+ 1047  ./simpleShell
+ 1048  ./simpleShell
+ 1049  gcc -o simpleShell main.c
+ 1050  ./simpleShell
+ 1051  gcc -o simpleShell main.c
+ 1052  gcc -o simpleShell main.c
+ 1053  ./simpleShell
+ 1054  gcc -o simpleShell main.c
+ 1055  ./simpleShell
+ 1056  gcc -o simpleShell main.c
+ 1057  ./simpleShell
+ 1058  gcc -o simpleShell main.c
+ 1059  gcc -o simpleShell main.c
+ 1060  ./simpleShell
+ 1061  gcc -o simpleShell main.c
+ 1062  ./simpleShell
+ 1063  gcc -o simpleShell main.c
+ 1064  gcc -o simpleShell main.c
+ 1065  ./simpleShell
+ 1066  gcc -o simpleShell main.c
+ 1067  ./simpleShell
+ 1068  gcc -o simpleShell main.c
+ 1069  ./simpleShell
+ 1070  gcc -o simpleShell main.c
+ 1071  gcc -o simpleShell main.c
+ 1072  ./simpleShell
+ 1073  gcc -o simpleShell main.c
+ 1074  ./simpleShell
+ 1075  gcc -o simpleShell main.c
+ 1076  ./simpleShell
+ 1077  gcc -o simpleShell main.c
+ 1078  ./simpleShell
+ 1079  gcc -o simpleShell main.c
+ 1080  ./simpleShell
+ 1081  gcc -o simpleShell main.c
+ 1082  ./simpleShell
+ 1083  gcc -o simpleShell main.c
+ 1084  ./simpleShell
+ 1085  gcc -o simpleShell main.c
+ 1086  ./simpleShell
+ 1087  gcc -o simpleShell main.c
+ 1088  ./simpleShell
+ 1089  gcc -o simpleShell main.c
+ 1090  ./simpleShell
+ 1091  ./simpleShell
+ 1092  gcc -o simpleShell main.c
+ 1093  ./simpleShell
+ 1094  gcc -o simpleShell main.c
+ 1095  ./simpleShell
+ 1096  gcc -o simpleShell main.c
+ 1097  gcc -o simpleShell main.c
+ 1098  ./simpleShell
+ 1099  gcc -o simpleShell main.c
+ 1100  ./simpleShell
+ 1101  gcc -o simpleShell main.c
+ 1102  ./simpleShell
+ 1103  ./simpleShell
+ 1104  gcc -o simpleShell main.c
+ 1105  ./simpleShell
+ 1106  gcc -o simpleShell main.c
+ 1107  ./simpleShell
+ 1108  gcc -o simpleShell main.c
+ 1109  gcc -o simpleShell main.c
+ 1110  gcc -o simpleShell main.c
+ 1111  ./simpleShell
+ 1112  gcc -o simpleShell main.c
+ 1113  ./simpleShell
+ 1114  gcc -o simpleShell main.c
+ 1115  ./simpleShell
+ 1116  gcc -o simpleShell main.c
+ 1117  ./simpleShell
+ 1118  gcc -o simpleShell main.c
+ 1119  ./simpleShell
+ 1120  ./simpleShell
+ 1121  ./simpleShell
+ 1122  gcc -o simpleShell main.c
+ 1123  ./simpleShell
+ 1124  gcc -o simpleShell main.c
+ 1125  ./simpleShell
+ 1126  gcc -o simpleShell main.c
+ 1127  ./simpleShell
+ 1128  gcc -o simpleShell main.c
+ 1129  ./simpleShell
+ 1130  gcc -o simpleShell main.c
+ 1131  gcc -o simpleShell main.c
+ 1132  ./simpleShell
+ 1133  gcc -o simpleShell main.c
+ 1134  ./simpleShell
+ 1135  gcc -o simpleShell main.c
+ 1136  ./simpleShell
+ 1137  gcc -o simpleShell main.c
+ 1138  ./simpleShell
+ 1139  gcc -o simpleShell main.c
+ 1140  ./simpleShell
+ 1141  gcc -o simpleShell main.c
+ 1142  ./simpleShell
+ 1143  gcc -o simpleShell main.c
+ 1144  ./simpleShell
+ 1145  gcc -o simpleShell main.c
+ 1146  ./simpleShell
+ 1147  gcc -o simpleShell main.c
+ 1148  ./simpleShell
+ 1149  gcc -o simpleShell main.c
+ 1150  ./simpleShell
+ 1151  ./simpleShell
+ 1152  gcc -o simpleShell main.c
+ 1153  ./simpleShell
+ 1154  gcc -o simpleShell main.c
+ 1155  ./simpleShell
+ 1156  gcc -o simpleShell main.c
+ 1157  ./simpleShell
+ 1158  gcc -o simpleShell main.c
+ 1159  ./simpleShell
+ 1160  gcc -o simpleShell main.c
+ 1161  ./simpleShell
+ 1162  gcc -o simpleShell main.c
+ 1163  ./simpleShell
+ 1164  valgrind ./simpleShell --leak-check=full
+ 1165  valgrind ./simpleShell --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose
+ 1166  valgrind ./simpleShell --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose
+ 1167  valgrind ./simpleShell --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose
+ 1168  clear
+ 1169  ./simpleShell
+ 1170  clear
+ 1171  ./simpleShell
+ 1172  cd ..
+ 1173  subl getrusage.c
+ 1174  gcc -o testa1 getrusage.c
+ 1175  gcc -o testa1 getrusage.c
+ 1176  ./testa1
+ 1177  cd ..
+ 1178  cd Lab\ 
+ 1179  cd Lab\ 1
+ 1180  ls
+ 1181  ccat sampleProgram1.c
+ 1182  ccat sampleprogram1.c
+ 1183  ccat sampleProgram2.c
+ 1184  cd ~/projects
+ 1185  ls
+ 1186  cd OSConceptsInClass1
+ 1187  ls
+ 1188  ccat main.c
+ 1189  cd ..
+ 1190  cd OSPipeActivity
+ 1191  ccat main
+ 1192  ccat main.c
+ 1193  gcc -o fork2 fork.c
+ 1194  ./fork2
+ 1195  gcc -o fork main.c
+ 1196  ls
+ 1197  cd ..
+ 1198  gcc -o fork main.c
+ 1199  ./fork
+ 1200  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts
+ 1201  ls
+ 1202  cd In\ Class\ Activities
+ 1203  ls
+ 1204  cdir forkInClass
+ 1205  subl fork.c
+ 1206  open .
+ 1207  ls
+ 1208  cd ..
+ 1209  gcc -o fork main.c
+ 1210  ./fork
+ 1211  gcc -o fork main.c
+ 1212  ./fork
+ 1213  gcc -o fork main.c
+ 1214  ./fork
+ 1215  gcc -o fork main.c
+ 1216  ./fork
+ 1217  gcc -o fork main.c
+ 1218  ./fork
+ 1219  gcc -o fork main.c
+ 1220  ./fork
+ 1221  gcc -o fork main.c
+ 1222  ./fork
+ 1223  gcc -o fork main.c
+ 1224  ./fork
+ 1225  gcc -o fork main.c
+ 1226  ./fork
+ 1227  ./fork
+ 1228  ./fork
+ 1229  ./fork
+ 1230  gcc -o fork main.c
+ 1231  ./fork
+ 1232  ./fork
+ 1233  gcc -o fork main.c
+ 1234  ./fork
+ 1235  ./fork
+ 1236  gcc -o fork main.c
+ 1237  ./fork
+ 1238  ./fork
+ 1239  ./fork
+ 1240  gcc -o fork main.c
+ 1241  ./fork
+ 1242  ./fork
+ 1243  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts/Labs/2/
+ 1244  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts/Labs/Lab\ 2/sampleProgram2
+ 1245  ls
+ 1246  ./sp2
+ 1247  ./sp2 3
+ 1248  gcc -o main.c
+ 1249  gcc -o fork main.c
+ 1250  gcc -o main.c
+ 1251  ./fork
+ 1252  gcc -o main.c
+ 1253  gcc -o fork main.c
+ 1254  ./fork
+ 1255  gcc -o fork main.c
+ 1256  ./fork
+ 1257  gcc -o fork main.c
+ 1258  ./fork
+ 1259  ./fork
+ 1260  ./fork
+ 1261  gcc -o fork main.c
+ 1262  ./fork
+ 1263  gcc -o fork main.c
+ 1264  ./fork
+ 1265  gcc -o fork main.c
+ 1266  ./fork
+ 1267  gcc -o fork main.c
+ 1268  ./fork
+ 1269  gcc -o fork main.c
+ 1270  ./fork
+ 1271  ./fork
+ 1272  gcc -o fork main.c
+ 1273  ./fork
+ 1274  gcc -o fork main.c
+ 1275  ./fork
+ 1276  gcc -o fork main.c
+ 1277  ./fork
+ 1278  gcc -o fork main.c
+ 1279  ./fork
+ 1280  gcc -o fork main.c
+ 1281  ./fork
+ 1282  gcc -o fork main.c
+ 1283  ./fork
+ 1284  gcc -o fork main.c
+ 1285  ./fork
+ 1286  gcc -o fork main.c
+ 1287  ./fork
+ 1288  gcc -o fork main.c
+ 1289  ./fork
+ 1290  gcc -o fork main.c
+ 1291  ./fork
+ 1292  sudo nala upgrade
+ 1293  ls
+ 1294  sudo flatpak update
+ 1295  sudo snap refresh
+ 1296  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts/Labs
+ 1297  cdir Lab 3
+ 1298  set-title LabTerminal
+ 1299  cdir sampleProgramOne
+ 1300  nano sampleProgram1.c
+ 1301  gcc -o sp1 sampleProgram1.c
+ 1302  ./sp1
+ 1303  nano sampleProgram1.c
+ 1304  ./sp1
+ 1305  subl sampleProgram1.c
+ 1306  subl sampleProgram1.c
+ 1307  ./sp1
+ 1308  gcc -o sp1 sampleProgram1.c
+ 1309  ./sp1
+ 1310  gcc -o sp1 sampleProgram1.c
+ 1311  ./sp1
+ 1312  gcc -o sp1 sampleProgram1.c
+ 1313  ./sp1
+ 1314  gcc -o sp1 sampleProgram1.c
+ 1315  ./sp1
+ 1316  gcc -o sp1 sampleProgram1.c
+ 1317  ./sp1
+ 1318  gcc -o sp1 sampleProgram1.c
+ 1319  ./sp1
+ 1320  gcc -o sp1 sampleProgram1.c
+ 1321  ./sp1
+ 1322  cd ..
+ 1323  cdir sampleProgram2
+ 1324  nano sampleProgram2.c
+ 1325  subl sampeProgram2.c
+ 1326  gcc -o sp2 sampleProgram2.c
+ 1327  rm sampleProgram2.c sp2
+ 1328  ls
+ 1329  gcc -o sp2 sampeProgram2.c
+ 1330  ./sp2
+ 1331  gcc -o sp2 sampeProgram2.c
+ 1332  ./sp2
+ 1333  gcc -o sp2 sampeProgram2.c
+ 1334  ./sp2
+ 1335  gcc -o sp2 sampeProgram2.c
+ 1336  gcc -o sp2 sampeProgram2.c
+ 1337  gcc -o sp2 sampeProgram2.c
+ 1338  gcc -o sp2 sampeProgram2.c
+ 1339  gcc -o sp2 sampeProgram2.c
+ 1340  ./sp2
+ 1341  gcc -o sp2 sampeProgram2.c
+ 1342  ./sp2
+ 1343  gcc -o sp2 sampeProgram2.c
+ 1344  ./sp2
+ 1345  gcc -o sp2 sampeProgram2.c
+ 1346  ./sp2
+ 1347  gcc -o sp2 sampeProgram2.c
+ 1348  ./sp2
+ 1349  gcc -o sp2 sampeProgram2.c
+ 1350  ./sp2
+ 1351  gcc -o sp2 sampeProgram2.c
+ 1352  ./sp2
+ 1353  gcc -o sp2 sampeProgram2.c
+ 1354  ./sp2
+ 1355  gcc -o sp2 sampeProgram2.c
+ 1356  ./sp2
+ 1357  gcc -o sp2 sampeProgram2.c
+ 1358  ./sp2
+ 1359  gcc -o sp2 sampeProgram2.c
+ 1360  ./sp2
+ 1361  gcc -o sp2 sampeProgram2.c
+ 1362  ./sp2
+ 1363  gcc -o sp2 sampeProgram2.c
+ 1364  ./sp2
+ 1365  gcc -o sp2 sampeProgram2.c
+ 1366  ./sp2
+ 1367  gcc -o sp2 sampeProgram2.c
+ 1368  ./sp2
+ 1369  gcc -o sp2 sampeProgram2.c
+ 1370  gcc -o sp2 sampeProgram2.c
+ 1371  ./sp2
+ 1372  gcc -o sp2 sampeProgram2.c
+ 1373  ./sp2
+ 1374  gcc -o sp2 sampeProgram2.c
+ 1375  ./sp2
+ 1376  gcc -o sp2 sampeProgram2.c
+ 1377  ./sp2
+ 1378  gcc -o sp2 sampeProgram2.c
+ 1379  ./sp2
+ 1380  gcc -o sp2 sampeProgram2.c
+ 1381  ./sp2
+ 1382  gcc -o sp2 sampeProgram2.c
+ 1383  ./sp2
+ 1384  gcc -o sp2 sampeProgram2.c
+ 1385  ./sp2
+ 1386  gcc -o sp2 sampeProgram2.c
+ 1387  ./sp2
+ 1388  cd /usr/include
+ 1389  ccat signal.h
+ 1390  setTitle signalCode
+ 1391  set-title signalCode
+ 1392  cd Documents/College\ Stuff/GVSU/Fall\ 2023/OS\ Concepts
+ 1393  ls
+ 1394  cd In\ Class\ Activities
+ 1395  ls
+ 1396  cd
+ 1397  cd projects
+ 1398  ls
+ 1399  cd forkProject
+ 1400  ccat main.c
+ 1401  od Work\ It\ Remix.wav | head
+ 1402  od -h
+ 1403  od --hel
+ 1404  od --help
+ 1405  od -c Work\ It\ Remix.wav| head
+ 1406  od -t Work\ It\ Remix.wav| head
+ 1407  od -a Work\ It\ Remix.wav| head
+ 1408  cd ..
+ 1409  ls
+ 1410  gcc -o wave_reverser main.c
+ 1411  gcc -o wave_reverser main.c file_lib.h
+ 1412  gcc -o wave_reverser main.c file_lib.h wav.h
+ 1413  gcc -o wave_reverser main.c file_lib.h file_lib.c
+ 1414  ./wav_reverser WavFiles/Work\ It\ Remix.wav 42
+ 1415  ls
+ 1416  ./wave_reverser WavFiles/Work\ It\ Remix.wav 64
+ 1417  open .
+ 1418  gcc -o wave_reverser main.c file_lib.h file_lib.c
+ 1419  ./wave_reverser WavFiles/Work\ It\ Remix.wav 64
+ 1420  cd Wav
+ 1421  cd WavFiles
+ 1422  ls
+ 1423  history

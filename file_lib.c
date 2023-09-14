@@ -15,9 +15,10 @@ size_t* getFileSize(const char* filePath) {
     // printf("%ld\n", size);
     fclose(file);
 
-    size_t* sizeptr = malloc(sizeof(size));
+    size_t* sizeptr = malloc(size);
     *sizeptr = size;
 
+    //free(file);
     return sizeptr;
 }
 
