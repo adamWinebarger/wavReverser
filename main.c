@@ -4,10 +4,26 @@
 //This project is designed to reverse wav files
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "wav.h"
 #include "file_lib.h"
 
+void freeWavFile(size_t* inputFileSize, char* fileContents, struct WavFile* waveFile) {
+    if (inputFileSize != NULL)
+        free(inputFileSize);
+
+    if (fileContents != NULL)
+        free(fileContents);
+
+    if (waveFile != NULL) {
+        if (waveFile->dataLoc != NULL)
+            free(waveFile->dataLoc);
+        if (waveFile->header != NULL)
+            free(waveFile->header);
+        free(waveFile);
+    }
+}
 
 
 int main(int argc, char *argv[])
@@ -26,6 +42,7 @@ int main(int argc, char *argv[])
 
     if (inputFilesize == NULL) {
         printf("Problem with getting file size. Please check that your input file exists.\n");
+        free(inputFilesize);
         return 4;
     }
 
@@ -50,10 +67,49 @@ int main(int argc, char *argv[])
 
     if (isValidWavFile != 0) {
         printf("Wav file validation failed. Exiting...\n");
+        freeWavFile(inputFilesize, fileContents, wavFile);
         return isValidWavFile;
     }
 
-    free(inputFilesize);
+    // printf("%d\n", wavFile->headerSize);
+    // printf("%lld\n", wavFile->fileSize);
+    // printf("%lld\n", wavFile->dataSize);
+
+    //Ok. So now we need to take the data section of our wav struct and reverse it. Seems like the easiest way to do that is going to be to memcopy to a
+    //char*, then have an int* interpret the data and cycle through using a 4 loop with the end condition being data size / 4... I think.
+    //I'm not quite articulating this as good as I'd like to but I think I've got it down.
+
+    int* dataAsInts = (int*) wavFile->dataLoc;
+    long dataSizeAsInts = wavFile->dataSize / 4;
+    printf("%d\n", dataSizeAsInts);
+
+    int* reversedDataAsInts = malloc(sizeof(int) * dataSizeAsInts);
+
+    for (int i = 0; i < dataSizeAsInts; i++) {
+        reversedDataAsInts[i] = dataAsInts[dataSizeAsInts-i-1];
+    }
+
+    char* reversedData = (char*) reversedDataAsInts;
+
+    // for (int i = 0; i < 5; i++) {
+    //     for (int j = 0; j < 16; j++) {
+    //         printf("%d ", reversedData[16*i + j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    char *reversedDataWithHeader = malloc(sizeof(char) * *inputFilesize);
+    memcpy(reversedDataWithHeader, wavFile->header, wavFile->headerSize);
+    memcpy(reversedDataWithHeader+wavFile->headerSize, reversedData, wavFile->dataSize);
+
+    write_file(argv[2], reversedDataWithHeader, *inputFilesize);
+
+    //Freeing our malloc'd stuff here
+    freeWavFile(inputFilesize, fileContents, wavFile);
+    //free(dataAsInts);
+    free(reversedDataAsInts);
+    free(reversedDataWithHeader);
+
     printf("Process exited normally\n");
     return 0;
 }

@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//This function will grab us the size of the file in Bytes, which is something that we'll need later
 size_t* getFileSize(const char* filePath) {
 
     size_t size;
@@ -9,14 +10,14 @@ size_t* getFileSize(const char* filePath) {
     if (file == NULL)
         return NULL;
 
-    fseek(file, 0L, SEEK_END);
+    fseek(file, 0L, SEEK_END); //Basically just counts from 0 to end... I wonder if there's a better way to do this
 
-    size = ftell(file);
+    size = ftell(file); //gets us the number of Bytes
     // printf("%ld\n", size);
     fclose(file);
 
-    size_t* sizeptr = malloc(size);
-    *sizeptr = size;
+    size_t* sizeptr = malloc(size); //assigning the value of size to a size_t*
+    *sizeptr = size;    //Kind of woks out since read_file needs a size_t* anyways.
 
     //free(file);
     return sizeptr;
